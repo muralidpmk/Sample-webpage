@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimg{
+	background-image: url('images/bgimg_3.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+.menubar{
+	width: 100%;
+	height: 75px;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+.leftmenu{
+	margin-left: 50px;
+	line-height: 65px;
+	float: left;
+}
+.leftmenu h4{
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	font-family: "Montserrat", sans-serif;
+}
+.rightmenu{
+	
+	width: 80%;
+	height: 100px;
+	float: right; 
+}
+
+.rightmenu ul{
+	margin-left: 275px;
+	padding-top: 27.5px;
+}
+.rightmenu ul li{
+	padding: 25px;
+	font-family: "Montserrat", sans-serif;
+	display: inline;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#fir{
+	color: orange;
+}
+.rightmenu ul li:hover{
+	color: orange;
+}
+.textdata{
+	text-align: center;
+	margin-top: 250px;
+	text-transform: uppercase;
+}
+.textdata h4{
+	font-size: 20px;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+}
+.textdata h3{
+	margin-top: 15px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 50px;
+}
+.textdata h1{
+	font-family: 'Original Surfer', cursive;
+	margin: 15px 0px;
+	font-size: 25px;
+}
+#bt_1{
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	border: 3px solid black;
+	font-weight: bold;
+	line-height: 30px;
+	width: 150px;
+
+}
+#bt_2{
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	border: 3px solid black;
+	font-weight: bold;
+	line-height: 30px;
+	width: 150px;
+
+}
+#bt_1:hover{
+	color:white;
+	background-color: orange;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	border: 3px solid white;
+	font-weight: bold;
+	line-height: 30px;
+	width: 150px;
+
+}
+#bt_2:hover{
+	color: white;
+	background-color: orange;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	border: 3px solid white;
+	font-weight: bold;
+	line-height: 30px;
+	width: 150px;
+
+}
